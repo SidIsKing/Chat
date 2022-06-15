@@ -54,28 +54,56 @@ h1 {
 
 #send-container {
     display: block;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
-    max-width: 1085px;
+    max-width: 1025px;
     width: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid black;
+    background-color: skyblue;
+    height: 12vh;
+    border-radius: 8px;
 }
 
 #messageInp {
-    width: 80%;
+    width: 75%;
     border: 2px solid black;
     border-radius: 6px;
-    height: 34px;
-    font-size: 22px;
+    height: 30px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
 }
 
-.btn {
+.send_button {
+    background-color: green;
     margin: 0 5px;
-    width: 9%;
+    width: 5%;
     cursor: pointer;
     border: 2px solid black;
     border-radius: 6px;
-    height: 34px;
+    height: 30px;
+}
+
+.textEditors {
+    margin: 0px;
+}
+
+#bold_btn {
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+}
+
+#italic_btn {
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+}
+
+#strikethrough_btn {
+    width: 25px;
+    height: 25px;
+    padding: 0px;
 }

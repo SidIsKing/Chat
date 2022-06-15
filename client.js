@@ -31,3 +31,18 @@ socket.on("receive", (data) => {
 socket.on("left", (Name) => {
     append(Name + " left the chat", "left");
 });
+const boldBtn = document.querySelector("#bold_btn");
+boldBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    document.execCommand("bold");
+});
+const italicBtn = document.querySelector("#italic_btn");
+italicBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    document.execCommand("italic");
+});
+const strikethroughBtn = document.querySelector("#strikethrough_btn");
+strikethroughBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    document.execCommand("strikethrough");
+});
